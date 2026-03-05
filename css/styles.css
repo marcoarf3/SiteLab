@@ -57,19 +57,20 @@ body {
 main {
   flex: 1;
 }
-.img1 {
-  float: right;
-  width: 25%; 
+.img0 {
+  float: center;
+  width: 15%; 
   max-width: 500px;
   height: auto;
-  margin: 0px 0px 15px 20px; 
+  margin: 0px 0px 15px 0px; 
 }
-.img2{
+.img1 {
   float: left;
   width: 20%; 
   max-width: 500px;
   height: auto;
-  margin: 0px 20px 15px 0px; 
+  margin: 0px 20px 15px 0px;
+  border-radius: 15%;
 }
 .banner{
   width: 100%; 
@@ -83,6 +84,10 @@ main {
   border-radius: 15px;
   padding: 20px;
   text-align: justify;
+}
+.principal a, .principal a:visited {
+  color: #6F2D3A;
+  text-decoration: none;
 }
 .rodape {
   background-color: #F5F2EE;
@@ -211,6 +216,9 @@ h2, h3 {
   .rodape-direita {
     text-align: center;
     margin-right: 0;
+  }
+  .img0{
+    width: 99.5%;
   }
   .img1{
     width: 99.5%;
